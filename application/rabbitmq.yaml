@@ -25,5 +25,3 @@ spec:
     syncOptions:
       - CreateNamespace=true
       - ServerSideApply=true
-    post:
-      - command: ['kubectl', 'apply', '-f', 'update-secret.yaml', '-n', 'rabbitmq']
