@@ -18,6 +18,8 @@ spec:
   - ref: github_ref
     repoURL: https://github.com/angelapoliana/teste_sympla.git
     targetRevision: HEAD
+  automatedRollback:
+    enabled: true  
   syncPolicy:
     automated:
       prune: true

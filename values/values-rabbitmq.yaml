@@ -1,3 +1,5 @@
 auth:
   username: teste
   password: angela
+
+hashLabel: "hash-label"
