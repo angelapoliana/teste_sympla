@@ -1,3 +1,6 @@
 auth:
   username: user
-  password: teste123
+readinessProbe:
+  enabled: false
+livenessProbe:
+  enabled: false
