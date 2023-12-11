@@ -1,4 +1,3 @@
-rabbitmq:
-  enabled: true
-  username: guest
-  password: guest
+auth:
+  username: angela  
+  password: angela123
