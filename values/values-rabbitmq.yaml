@@ -1,5 +1,3 @@
 auth:
   username: teste
-  password: angela
-
-hashLabel: "0a45705f78cc2e4aa147fee8fee60ea93b3d901a3bc28157095e2343cc28d675"
+  password: teste
