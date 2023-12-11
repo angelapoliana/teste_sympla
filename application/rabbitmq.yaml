@@ -12,10 +12,10 @@ spec:
   - chart: rabbitmq
     helm:
       valueFiles:
-      - $values/values/values-rabbitmq.yaml
+      - $github_ref/values/values-rabbitmq.yaml
     repoURL: 'https://charts.bitnami.com/bitnami'
     targetRevision: 12.5.6
-  - ref: values
+  - ref: github_ref
     repoURL: https://github.com/angelapoliana/teste_sympla.git
     targetRevision: HEAD
   syncPolicy:
