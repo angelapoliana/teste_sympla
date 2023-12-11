@@ -1,0 +1,4 @@
+rabbitmq:
+  enabled: true
+  username: guest
+  password: guest
